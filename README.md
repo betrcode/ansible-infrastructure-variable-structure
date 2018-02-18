@@ -28,3 +28,9 @@ Then run the playbook with:
 where *${ENVIRONMENT}* is `germany` or `greatbritain`.
 
 ### Example output
+
+## Troubleshooting
+```
+ERROR! 'utf8' codec can't decode byte 0xa9 in position 14: invalid start byte
+```
+You have probably not decrypted the repository secrets. Do it by running: `git-crypt unlock ./demo-git-crypt-key`
