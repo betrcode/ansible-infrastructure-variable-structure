@@ -1,0 +1,6 @@
+---
+# This file will be loaded automatically, since every host (even localhost) is part of the "all" group.
+
+top_all:
+  name: "Sweet Vars"
+  description: "These vars will be loaded by all - regardless of environment."

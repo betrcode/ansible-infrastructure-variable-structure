@@ -1,0 +1,13 @@
+---
+
+- name: Show loaded variables, just to see what got loaded
+  debug:
+    var: "{{ item }}"
+  with_items:
+    - top_all
+    - environment_all
+    - environment_secrets
+
+- name: Pretend to setup autoscaling group
+  debug:
+    msg: "Setting up autoscaling group in region: {{ environment_all.region }} for environment: {{ environment_all.name }}"
