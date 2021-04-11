@@ -13,7 +13,7 @@ When you provision infrastructure (and not hosts), it is not as clear how to str
 intends to give you a good example.
 
 Secrets handling is another problem, and in this playbook we show you how to use `git-crypt` to encrypt specific 
-sensitive files and use some clever Ansible magic to load the secrets automatically.
+sensitive files.
 
 Read the full blog post at: [https://blog.crisp.se/2018/02/18/maxwenzin/how-to-structure-ansible-variables-when-provisioning-infrastructure](https://blog.crisp.se/2018/02/18/maxwenzin/how-to-structure-ansible-variables-when-provisioning-infrastructure)
 
